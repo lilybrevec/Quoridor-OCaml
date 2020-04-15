@@ -1,0 +1,5 @@
+SOURCES = const.ml server.ml
+PACKS = universe
+RESULT = server
+OCAMLMAKEFILE = ~/.opam/current/lib/ocaml-makefile/OCamlMakefile
+include $(OCAMLMAKEFILE)
